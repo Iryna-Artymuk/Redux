@@ -2,7 +2,7 @@ import { StatusFilter } from 'components/StatusFilter/StatusFilter';
 import { TaskCounter } from 'components/TaskCounter/TaskCounter';
 import css from './App.module.css';
 
-export const AppBar = () => {
+export const HeaderBar = () => {
   return (
     <header className={css.wrapper}>
       <section className={css.section}>
